@@ -1,3 +1,5 @@
+require('babel-polyfill');
+
 const detox = require('detox');
 const config = require('../package.json').detox;
 const adapter = require('detox/runners/jest/adapter');
